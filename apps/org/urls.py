@@ -9,7 +9,7 @@ urlpatterns = patterns('org.views',
     url(r'teachers_temp_reg/$', 'teachers_temp_reg', name = 'teachers_temp_reg'),    
     
     url(r'schools_list/$', 'schools_list', name = 'schools_list'),
-    url(r'school_info//(\d+)$', 'school_info', name = 'school_info'),
+    url(r'school_info/(\d+)$', 'school_info', name = 'school_info'),
     url(r'school_del/(\d+)/$', 'school_del', name = 'school_del'),
     
     url(r'teachers_list/$', 'teachers_list', name = 'teachers_list'),
